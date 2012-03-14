@@ -1,4 +1,7 @@
 Comunidadmanager::Application.routes.draw do
+  get "paginas/home"
+
+  root :to => 'paginas#home'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
